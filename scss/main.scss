@@ -1,0 +1,129 @@
+body {
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw;
+  }
+  
+  nav {
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(241, 239, 255);
+    border-right: 5px solid rgb(196, 196, 196);
+    font-size: 18px;
+  
+    li {
+      height: 30px;
+      margin: 30px 0;
+    }
+  }
+  
+  ul {
+    margin-top: 60px;
+    padding-left: 50px;
+  
+    .top {
+      color: rgb(255, 201, 201);
+    }
+  
+    .movies {
+      color: rgb(0, 255, 0);
+    }
+  
+    .drama {
+      color: rgb(0, 255, 255);
+    }
+  
+    .stage {
+      color: rgb(0, 145, 255);
+    }
+  
+    .photo-album {
+      color: rgb(55, 0, 255);
+    }
+  
+    .books {
+      color: rgb(59, 28, 159);
+    }
+  
+    .administrator {
+      color: rgb(223, 0, 209);
+    }
+  }
+  
+  .index {
+    background-image: url(../images/abehiroshi.jpg);
+  }
+  
+  .main-container {
+    width: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    border-left: 1px solid black;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* トップページ */
+  .top-page {
+    display: flex;
+    width: 100vw;
+    margin: 40px 0 80px;
+  
+    .profile {
+      width: 30%;
+      margin-left: 1vw;
+      margin-top: 10vh;
+  
+      img {
+        width: 95%;
+      }
+  
+      .profile-details {
+        width: 70%;
+  
+        ul {
+          list-style: none;
+          margin-top: 30px;
+        }
+  
+        .address p {
+          margin: 0;
+        }
+      }
+    }
+  
+    .news {
+      width: 60vw;
+  
+      table {
+        border-collapse: collapse;
+        margin-right: 100px;
+        font-weight: bold;
+      }
+  
+      th {
+        text-align: center;
+      }
+  
+      tr {
+        border-bottom: 1px solid black;
+      }
+  
+      td {
+        margin: 0 0.5vw;
+      }
+  
+      .category {
+        padding-right: 30px;
+        width: 50px;
+      }
+    }
+  }
+  

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+  margin: 0 auto; }
+
+.container {
+  display: flex;
+  width: 100vw; }
+
+nav {
+  width: 20vw;
+  height: 100vh;
+  background-color: #f1efff;
+  border-right: 5px solid #c4c4c4;
+  font-size: 18px; }
+nav li {
+  height: 30px;
+  margin: 30px 0; }
+
+ul {
+  margin-top: 60px;
+  padding-left: 50px; }
+ul .top {
+  color: #ffc9c9; }
+ul .movies {
+  color: lime; }
+ul .drama {
+  color: cyan; }
+ul .stage {
+  color: #0091ff; }
+ul .photo-album {
+  color: #3700ff; }
+ul .books {
+  color: #3b1c9f; }
+ul .administrator {
+  color: #df00d1; }
+
+.index {
+  background-image: url(../images/abehiroshi.jpg); }
+
+.main-container {
+  width: 80%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  border-left: 1px solid black; }
+
+h1 {
+  text-align: center;
+  margin-top: 50px; }
+
+/* トップページ */
+.top-page {
+  display: flex;
+  width: 100vw;
+  margin: 40px 0 80px; }
+.top-page .profile {
+  width: 30%;
+  margin-left: 1vw;
+  margin-top: 10vh; }
+.top-page .profile img {
+  width: 95%; }
+.top-page .profile .profile-details {
+  width: 70%; }
+.top-page .profile .profile-details ul {
+  list-style: none;
+  margin-top: 30px; }
+.top-page .profile .profile-details .address p {
+  margin: 0; }
+.top-page .news {
+  width: 60vw; }
+.top-page .news table {
+  border-collapse: collapse;
+  margin-right: 100px;
+  font-weight: bold; }
+.top-page .news th {
+  text-align: center; }
+.top-page .news tr {
+  border-bottom: 1px solid black; }
+.top-page .news td {
+  margin: 0 0.5vw; }
+.top-page .news .category {
+  padding-right: 30px;
+  width: 50px; }
+
+/*# sourceMappingURL=main.css.map */
