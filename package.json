@@ -1,0 +1,24 @@
+{
+  "name": "abehiroshi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "node-sass -w -r scss/ -o dest/",
+    "sass:build": "node-sass -r scss/ -o dest/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaoriNagatsuka/abehiroshi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaoriNagatsuka/abehiroshi/issues"
+  },
+  "homepage": "https://github.com/kaoriNagatsuka/abehiroshi#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
